@@ -1,0 +1,23 @@
+.planscreen_plan{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    opacity: 0.7;
+}
+
+.planscreen_plan:hover{
+    
+    opacity: 1;
+}
+
+.planscreen_plan>button{
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #e50914;
+    cursor: pointer;
+}
+
+.planscreen_disabled>button{
+    background-color: grey;
+}
+
